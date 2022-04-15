@@ -1,0 +1,83 @@
+body{
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #222;
+}
+p{
+  line-height: 1.35;
+  max-width: 60ch;
+  overflow: auto;
+  text-align: center;
+}
+figcaption{
+  font-size: 14px;
+  font-style: italic;
+}
+#box{
+  background-color: #bbdefb;
+  padding: 50px;
+  border: 10px dotted #ffcdd2;
+}
+h1{
+  font-family: alfa-slab-one;
+  font-weight: 900;
+}
+h2{
+  font-family: "Roboto Slab","Arial","Helvetica";
+}
+section{
+  background-color: rgb(224, 224, 224)
+}
+a:link{
+  color: #5475B4;/*facebook-blue*/
+}
+a:visited{
+  color: #4B195D;/*purple*/
+}
+a:hover{
+  color: rgb(235, 80, 58);/*red*/
+}
+a:active{
+  color: rgb(247, 203, 93);/*gold*/
+}
+#envir-2{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#envir-2{
+  grid-column-start: 1;
+  grid-column-end: -1;
+  display: inline-grid;
+}
+#envir-2 section {
+  display: inline-grid;
+  max-width: 60ch;
+}
+#gov-3{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#gov-3{
+  grid-column-start: 1;
+  grid-column-end: -1;
+  display: inline-grid;
+}
+
+#gov-3 section {
+  display: inline-grid;
+  max width: 60ch;
+}
+#geo-4{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#geo-4{
+  grid-column-start: 1;
+  grid-column-end: -1;
+  display: inline-grid;
+}
+#geo-4 section {
+  display: inline-grid;
+  max-width: 60ch;
+}
